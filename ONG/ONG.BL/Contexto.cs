@@ -19,6 +19,7 @@ namespace ONG.BL
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            Database.SetInitializer(new DatosdeInicio());
         }
 
         public DbSet<Desaparecido> Desaparecidos { get; set; }
@@ -27,5 +28,7 @@ namespace ONG.BL
         public DbSet<Beneficiario> Beneficiarios { get; set; } 
         public DbSet<Orden> Ordenes { get; set; }
         public DbSet<OrdenDetalle> OrdenDetalle { get; set; }
+
+        public DbSet<Usuario> Usuarios { get; set; }
     }
 }

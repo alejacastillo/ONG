@@ -7,6 +7,7 @@ using System.Web.Mvc;
 
 namespace ONG.WebAdmin.Controllers
 {
+    [Authorize]
     public class DesaparecidosController : Controller
     {
         DesaparecidosBL _desaparecidosBL;

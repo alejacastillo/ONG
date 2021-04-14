@@ -6,7 +6,8 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace ONG.WebAdmin.Controllers
-{
+{   
+    [Authorize]
     public class CategoriasController : Controller
     {
             CategoriasBL _categoriasBL;
