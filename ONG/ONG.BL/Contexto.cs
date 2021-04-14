@@ -30,5 +30,7 @@ namespace ONG.BL
         public DbSet<OrdenDetalle> OrdenDetalle { get; set; }
 
         public DbSet<Usuario> Usuarios { get; set; }
+
+        public DbSet<Bodega> Bodegas { get; set; }
     }
 }

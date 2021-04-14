@@ -56,6 +56,8 @@
     <Compile Include="BeneficiariosBL.cs" />
     <Compile Include="Beneficio.cs" />
     <Compile Include="BeneficiosBL.cs" />
+    <Compile Include="Bodega.cs" />
+    <Compile Include="BodegasBL.cs" />
     <Compile Include="Categoria.cs" />
     <Compile Include="CategoriasBL.cs" />
     <Compile Include="Contexto.cs" />
